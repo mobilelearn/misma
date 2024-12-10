@@ -1117,6 +1117,17 @@
           </color>
         </group_colors>
       </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
     </colorscheme>
   </colorschemes>
   <string_tables>
