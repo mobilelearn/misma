@@ -2,26 +2,23 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6QqvViirtHs":
+      case "6IAVEGMu1Th":
         Script1();
         break;
-      case "5afGC9anWHB":
+      case "5hR7TzOeafR":
         Script2();
         break;
-      case "6M43gj56PXp":
+      case "5oMlwMft8BO":
         Script3();
         break;
-      case "5zQQC5sUMdw":
+      case "6Ou577e9wTJ":
         Script4();
         break;
-      case "5u8DJDzCW2L":
+      case "5t7oxdcvbDS":
         Script5();
         break;
-      case "6qwzT1qQdSW":
+      case "5zZJsJCi3Eu":
         Script6();
-        break;
-      case "6DEO667vkqK":
-        Script7();
         break;
   }
 }

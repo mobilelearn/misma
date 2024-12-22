@@ -9,6 +9,7 @@ window.Script1 = function()
 {
   var audio = document.getElementById('bgSong');
 audio.src="BgMusik.mp3";
+audio.load();
 audio.play();
 }
 
@@ -37,18 +38,10 @@ window.Script5 = function()
 {
   var audio = document.getElementById('bgSong');
 audio.src="BgMusik.mp3";
-audio.load();
-audio.play();
-}
-
-window.Script6 = function()
-{
-  var audio = document.getElementById('bgSong');
-audio.src="BgMusik.mp3";
 audio.pause();
 }
 
-window.Script7 = function()
+window.Script6 = function()
 {
   var audio = document.getElementById('bgSong');
 audio.src="BgMusik.mp3";
