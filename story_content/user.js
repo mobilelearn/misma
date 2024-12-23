@@ -46,10 +46,42 @@ window.Script6 = function()
 {
   var audio = document.getElementById('bgSong');
 audio.src="BgMusik.mp3";
-audio.pause();
+audio.load();
+audio.play();
 }
 
 window.Script7 = function()
+{
+  var audio = document.getElementById('bgSong');
+audio.src="BgMusik.mp3";
+audio.load();
+audio.play();
+}
+
+window.Script8 = function()
+{
+  var audio = document.getElementById('bgSong');
+audio.src="BgMusik.mp3";
+audio.load();
+audio.play();
+}
+
+window.Script9 = function()
+{
+  var audio = document.getElementById('bgSong');
+audio.src="BgMusik.mp3";
+audio.load();
+audio.play();
+}
+
+window.Script10 = function()
+{
+  var audio = document.getElementById('bgSong');
+audio.src="BgMusik.mp3";
+audio.pause();
+}
+
+window.Script11 = function()
 {
   var audio = document.getElementById('bgSong');
 audio.src="BgMusik.mp3";
