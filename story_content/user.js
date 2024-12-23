@@ -9,6 +9,7 @@ window.Script1 = function()
 {
   var audio = document.getElementById('bgSong');
 audio.src="BgMusik.mp3";
+audio.load();
 audio.play();
 }
 
@@ -16,7 +17,7 @@ window.Script2 = function()
 {
   var audio = document.getElementById('bgSong');
 audio.src="BgMusik.mp3";
-audio.pause();
+audio.play();
 }
 
 window.Script3 = function()
@@ -30,18 +31,25 @@ window.Script4 = function()
 {
   var audio = document.getElementById('bgSong');
 audio.src="BgMusik.mp3";
-audio.load();
-audio.play();
+audio.pause();
 }
 
 window.Script5 = function()
 {
   var audio = document.getElementById('bgSong');
 audio.src="BgMusik.mp3";
-audio.pause();
+audio.load();
+audio.play();
 }
 
 window.Script6 = function()
+{
+  var audio = document.getElementById('bgSong');
+audio.src="BgMusik.mp3";
+audio.pause();
+}
+
+window.Script7 = function()
 {
   var audio = document.getElementById('bgSong');
 audio.src="BgMusik.mp3";
